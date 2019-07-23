@@ -1,0 +1,5 @@
+profile: cli
+defaultPackage: mc.cli.test
+---
+testFramework: spek
+sourceLanguage: kotlin
