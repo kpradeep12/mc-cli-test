@@ -13,7 +13,7 @@ import javax.inject.Inject
         mixinStandardHelpOptions = true)
 class McCliTestCommand : Runnable {
     @Inject
-    val converterService: ConverterService? = null
+    var converterService: ConverterService? = null
     @Option(names = ["-v", "--verbose"], description = ["..."])
     private var verbose : Boolean = false
 
